@@ -1,0 +1,84 @@
+body {
+	background-color: #fff;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.title {
+	margin-top: 150px;
+	font-size: 4em;
+	text-transform: uppercase;
+	color: #b10000;
+	letter-spacing: 0px;
+	font-family: monospace;
+	font-weight: 100;
+}
+
+.input-text {
+	background: #eee;
+	border: none;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 70px;
+	padding-right: 70px;
+	border-radius: 13px;
+	color: #080808;
+}
+
+.input-text:focus {
+	outline: none;
+}
+
+.container {
+	width: 90%;
+}
+
+.project-list {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin: 50px;
+	padding: 0;
+	list-style-type: none;
+}
+
+.project-list-item {
+	position: relative;
+	background: #f5f5f5e0;
+	box-shadow: -2px 5px 3px 0px #3808083d;
+	color: #000;
+	padding: 26px;
+	width: 255px;
+	border-radius: 7px;
+	margin-bottom: 50px;
+	clear: both;
+}
+
+.project-owner-avatar {
+	width: 50px;
+	float: left;
+	margin-right: 10px;
+}
+
+.project-link {
+	text-decoration: none;
+	color: #000;
+	background: #cab5b54d;
+	padding: 5px 12px;
+	border-radius: 4px;
+	font-size: 13px;
+	position: absolute;
+	right: 9px;
+	bottom: 10px;
+	float: right;
+	transition: .5s ease;
+}
+
+.project-link:hover {
+	color: #f6f6f6;
+	background: #171515c7;
+	border-radius: 50px;
+}
